@@ -22,6 +22,7 @@
 .header{
     max-width: 100%; 
     height: 698px;
+    /* margin: 0px auto; */
     background-image: url("../Assets/Hero-bg.png");
 }
 
@@ -61,5 +62,45 @@ nav ul li, a {
     width: 905px;
     height: 152px;
 }
+
+/* main section styles */
+main{
+    max-width: 1700px;
+    margin: 0px auto;
+}
+
+/* Action Section */
+
+.action-section{
+    display: flex;
+    gap: 220px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 0px;
+    
+}
+
+.left-side{
+    max-width: 517px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 42px;
+    width: 517px;
+    height: 49px;
+}
+.sub-title{
+    font-size: 24px;
+    width: 517px;
+    height: 60px;
+}
+
+.img-wc-mini{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
 
 
