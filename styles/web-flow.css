@@ -112,6 +112,11 @@ main{
 
 /* Main section Productive part */
 
+main section{
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+
 .productive{
     background-color: #b7b5ff;
     text-align: center;
@@ -143,6 +148,54 @@ main{
     font-size: 20px;
     color: #363636;
     margin: 30px 0px;
+}
+
+/* Designer part styles */
+
+.designer{
+    max-width: 1700px;
+    margin: 0px auto;
+}
+.designers-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.designs{
+    padding: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+.designers-title{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+}
+
+.designer-title{
+    width: 221px;
+    height: 29px;
+    font-size: 24px;
+
+}
+.designer-description{
+    width: 319px;
+    height: 44px;
+    font-size: 16px;
+}
+.user-review{
+    display: flex;
+    align-items: center;
+}
+.user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.reviews{
+    padding-left: 20px;
+    color: gray;
 }
 
 
